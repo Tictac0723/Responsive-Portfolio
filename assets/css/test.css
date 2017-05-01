@@ -1,0 +1,644 @@
+body {
+    font-size: 18px;
+    line-height: 27px;
+    background-image: url("../../upfeathers.png");
+    margin: 0;
+}
+
+header {
+    height: 75px;
+    width: 100%;
+    top: 0;
+    background-color: #ffffff;
+    padding-bottom: 10px;
+}
+
+#name {
+    height: 85px;
+    background-color: #4aaaa5;
+    font-family: 'Hind', sans-serif;
+    font-size: 28px;
+    width: 150px;
+    margin-top: 0px;
+    margin-left: 75px;
+    float: left;
+    display: table;
+}
+
+#allcontent {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+
+#aboutmetitle {
+    padding: 5px;
+    color: #4aaaa5;
+    font-size: 30px;
+    font-family: 'Hind', sans-serif;
+}
+
+.pagecontent {
+    border: 1px solid;
+    border-color: #dddddd;
+    padding: 5px;
+    display: inline;
+    width: 50%;
+    margin-top: 20px;
+    float: left;
+    background-color: #ffffff;
+    margin-right: 10px;
+}
+
+.aboutmecontent {
+    color: #777777;
+    font-size: 15px;
+    font-family: 'Hind', sans-serif;
+}
+
+.tandd {
+    padding: 10px;
+    float: left;
+    display: inline;
+    width: 375px;
+}
+
+.center {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+}
+
+#links {
+    margin-top: 25px;
+    float: right;
+    display: inline;
+    vertical-align: center;
+    color: #777777;
+    font-family: 'Hind', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.connect {
+    position: static;
+    width: 100%;
+    float;
+    left;
+    border: 1px solid;
+    border-color: #dddddd;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+    float: right;
+    display: inline;
+    width: 30%;
+    background-color: #ffffff;
+    margin-top: 20px;
+}
+
+.connecttitle {
+    padding: 5px;
+    color: #4aaaa5;
+    font-size: 20px;
+    font-family: 'Hind', sans-serif;
+}
+
+.thumbnails {
+    text-align: center;
+    margin: 0;
+    display: inline;
+}
+
+.thumbnail {
+    width: 30%;
+}
+	.contacttitle {
+	padding: 10px;
+	color: #4aaaa5;
+	font-size: 30px;
+	font-family: 'Hind', sans-serif;
+}
+.textbox {
+	moz-appearance: textfield-multiline;
+    -webkit-appearance: textarea;
+    border: 1px solid gray;
+    font: medium -moz-fixed;
+    font: -webkit-small-control;
+    height: 28px;
+    overflow: auto;
+    padding: 1px;
+    resize: both;
+    width: 80%;
+    bottom-padding: 10px;
+    height: 20px;
+    width: 575px;
+    margin: 10px;
+    font-family: 'Hind', sans-serif;
+}
+.submit {
+	float: right;
+	height: 35px;
+	width: 45%;
+	background-color:#4aaaa5;
+	font-size: 20px;
+	font-family: 'Hind', sans-serif;
+	color: white;
+	margin: 15px;
+	text-align: center;
+}
+
+h3 {
+	color: #777777;
+	font-family: 'Hind', sans-serif;
+	padding-left: 10px;
+}
+.porttitle {
+	padding: 10px;
+	color: #4aaaa5;
+	font-size: 30px;
+	font-family: 'Hind', sans-serif;
+}
+
+.boxes {
+	margin-top: 20px;
+	display: inline-block;
+	padding-left: 15px;
+	padding-right: 15px;
+	z-index: 1;
+	border: 1px;
+	position: relative;
+
+}
+.boxes img {
+	width: 50%;
+	height: auto;
+}
+
+.boxes .left {
+	float: left;
+}
+
+.boxes .right {
+	float: right;
+}
+
+.row {
+	clear: both;
+}
+
+.portfoliotitles {
+	z-index: 2;
+	background-color: #4aaaa5;
+	font-family: 'Hind', sans-serif;
+	width: 220px;
+	color: white;
+	font-size: 26px;
+	text-align: center;
+	height: 42px;
+	position: absolute;
+	margin-top: 165px;
+	vertical-align: center;
+}
+footer {
+    height: 70px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+    background-color: #666666;
+    text-align: center;
+    font-family: 'Hind', sans-serif;
+    font-size: 12px;
+    color: white;
+    border-top: solid;
+    border-top-width: 10px;
+    border-top-color: #4aaaa5;
+}
+
+@media screen and (max-width: 980px) {
+    .header,
+    #name,
+    #links,
+    .center {
+        width: 100%;
+        float;
+        left;
+        margin-bottom: 0px;
+    }
+    .pagecontent {
+        position: static;
+        width: 100%;
+        float;
+        left;
+        clear: both;
+        border: 1px solid;
+        border-color: #dddddd;
+        padding: 5px;
+        display: inline;
+        width: 50%;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 10px;
+        float: left;
+        background-color: #ffffff;
+    }
+    .connect {
+        position: static;
+        width: 100%;
+        float;
+        left;
+        border: 1px solid;
+        border-color: #dddddd;
+        padding-left: 10px;
+        padding-top: 5px;
+        padding-bottom: 0px;
+        padding-right: 10px;
+        float: right;
+        display: inline;
+        width: 30%;
+        background-color: #ffffff;
+        margin-top: 20px;
+    }
+    .footer {
+        position: static;
+        width: 100%;
+        margin-top: 100px;
+    }
+}
+
+header {
+    width: 100%;
+    top: 0;
+    background-color: #ffffff;
+    position: static;
+    margin-top: 0;
+}
+
+#name {
+    background-color: #4aaaa5;
+    font-family: 'Hind', sans-serif;
+    font-size: 10%;
+    width: 10%;
+    margin-left: 75px;
+    float: left;
+}
+
+#links {
+    margin-top: 25px;
+    float: right;
+    display: inline;
+    vertical-align: center;
+    color: #777777;
+    font-family: 'Hind', sans-serif;
+}
+
+#allcontent {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+
+#aboutmetitle {
+    padding: 5px;
+    color: #4aaaa5;
+    font-size: 30px;
+    font-family: 'Hind', sans-serif;
+}
+
+.aboutmecontent {
+    color: #777777;
+    font-size: 15px;
+    font-family: 'Hind', sans-serif;
+}
+
+.tandd {
+    padding: 10px;
+    float: left;
+    display: inline;
+    width: 40%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.connecttitle {
+    padding: 5px;
+    color: #4aaaa5;
+    font-size: 20px;
+    font-family: 'Hind', sans-serif;
+}
+
+.thumbnails {
+    text-align: center;
+    margin: 0;
+    display: inline;
+}
+
+.thumbnail {
+    width: 30%;
+}
+
+	.contacttitle {
+	padding: 10px;
+	color: #4aaaa5;
+	font-size: 30px;
+	font-family: 'Hind', sans-serif;
+}
+.textbox {
+	moz-appearance: textfield-multiline;
+    -webkit-appearance: textarea;
+    border: 1px solid gray;
+    font: medium -moz-fixed;
+    font: -webkit-small-control;
+    height: 28px;
+    overflow: auto;
+    padding: 1px;
+    resize: both;
+    width: 80%;
+    bottom-padding: 10px;
+    height: 20px;
+    width: 80%;
+    margin: 10px;
+    font-family: 'Hind', sans-serif;
+}
+.submit {
+	float: right;
+	height: 35px;
+	width: 45%;
+	background-color:#4aaaa5;
+	font-size: 20px;
+	font-family: 'Hind', sans-serif;
+	color: white;
+	margin: 15px;
+	text-align: center;
+}
+
+h3 {
+	color: #777777;
+	font-family: 'Hind', sans-serif;
+	padding-left: 10px;
+}
+
+
+footer {
+    height: 70px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+    background-color: #666666;
+    text-align: center;
+    font-family: 'Hind', sans-serif;
+    font-size: 12px;
+    color: white;
+    border-top: solid;
+    border-top-width: 10px;
+    border-top-color: #4aaaa5;
+}
+/*
+@media screen and (max-width: 768px) {
+    .header,
+    #name,
+    #links,
+    .center {
+        width: 100%;
+        float;
+        left;
+        margin-bottom: 0px;
+        clear: both;
+    }
+    .pagecontent {
+        position: static;
+        width: 100%;
+        margin-top: 0px;
+        float;
+        left;
+        clear: both;
+    }
+    .connect {
+        position: static;
+        width: 100%;
+        float;
+        left;
+        clear: both;
+    }
+    .footer {
+        position: static;
+        width: 100%;
+        margin-top: 100px;
+    }
+}
+
+header {
+    width: 100%;
+    top: 0;
+    background-color: #ffffff;
+    position: static;
+    margin-top: 0;
+}
+
+#name {
+    background-color: #4aaaa5;
+    font-family: 'Hind', sans-serif;
+    font-size: 28px;
+    width: 10%;
+    margin-left: 75px;
+    float: left;
+}
+
+#allcontent {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+
+#aboutmetitle {
+    padding: 5px;
+    color: #4aaaa5;
+    font-size: 30px;
+    font-family: 'Hind', sans-serif;
+}
+
+.aboutme {
+    border: 1px solid;
+    border-color: #dddddd;
+    padding: 5px;
+    display: inline;
+    width: 650px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 75px;
+    margin-right: 0px;
+    float: left;
+    background-color: #ffffff;
+}
+
+.aboutmecontent {
+    color: #777777;
+    font-size: 15px;
+    font-family: 'Hind', sans-serif;
+}
+
+.tandd {
+    padding: 10px;
+    float: left;
+    display: inline;
+    width: 375px;
+}
+
+.center {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+}
+
+#links {
+    margin-top: 25px;
+    float: right;
+    display: inline;
+    vertical-align: center;
+    color: #777777;
+    font-family: 'Hind', sans-serif;
+}
+
+footer {
+    height: 70px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+    background-color: #666666;
+    text-align: center;
+    font-family: 'Hind', sans-serif;
+    font-size: 12px;
+    color: white;
+    border-top: solid;
+    border-top-width: 10px;
+    border-top-color: #4aaaa5;
+}
+
+
+}
+@media screen and (max-width: 640px) {
+    .header,
+    #name,
+    #links,
+    .center {
+        width: 100%;
+        float;
+        left;
+        margin-bottom: 0px;
+        clear: both;
+    }
+    
+    .pagecontent {
+        position: static;
+        width: 100%;
+        margin-top: 0px;
+        float;
+        left;
+        clear: both;
+    }
+    
+    .connect {
+        position: static;
+        width: 100%;
+        float;
+        left;
+        clear: both;
+    }
+    
+    .footer {
+        position: static;
+        width: 100%;
+        margin-top: 100px;
+    }
+}
+header {
+    width: 100%;
+    top: 0;
+    background-color: #ffffff;
+    position: static;
+    margin-top: 0;
+}
+#name {
+    background-color: #4aaaa5;
+    font-family: 'Hind', sans-serif;
+    font-size: 28px;
+    width: 10%;
+    margin-left: 75px;
+    float: left;
+}
+#allcontent {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+#aboutmetitle {
+    padding: 5px;
+    color: #4aaaa5;
+    font-size: 30px;
+    font-family: 'Hind', sans-serif;
+}
+.aboutme {
+    border: 1px solid;
+    border-color: #dddddd;
+    padding: 5px;
+    display: inline;
+    width: 650px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 75px;
+    margin-right: 0px;
+    float: left;
+    background-color: #ffffff;
+}
+.aboutmecontent {
+    color: #777777;
+    font-size: 15px;
+    font-family: 'Hind', sans-serif;
+}
+.tandd {
+    padding: 10px;
+    float: left;
+    display: inline;
+    width: 375px;
+}
+.center {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+}
+#links {
+    margin-top: 25px;
+    float: right;
+    display: inline;
+    vertical-align: center;
+    color: #777777;
+    font-family: 'Hind', sans-serif;
+}
+footer {
+    height: 70px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+    background-color: #666666;
+    text-align: center;
+    font-family: 'Hind', sans-serif;
+    font-size: 12px;
+    color: white;
+    border-top: solid;
+    border-top-width: 10px;
+    border-top-color: #4aaaa5;
+}
+
+}
